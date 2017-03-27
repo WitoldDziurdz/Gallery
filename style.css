@@ -1,0 +1,601 @@
+ 
+body
+{
+	background-color: #CFCBC6;
+	color:#D9C191;
+	text-align:left;
+    font-family: Verdana,Arial,sans-serif;	
+}
+h2{
+	  color:white;
+	  font-size: 19px;
+}
+h3
+{
+	border-bottom: 2px dashed black;
+	color:#D9C191;
+    margin-left:0%;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.submit_galeri
+{
+    min-width: 120px;
+    max-width: 250px;
+	padding:5px;
+	color:#D9C191;
+	background:#756144;
+	border:none;
+	border-radius: 9px 9px 9px 9px;
+}
+.submit_galeri:hover
+{
+	
+	padding:5px;
+	color:white;
+	background:#745044;
+	cursor:pointer;
+}
+table
+{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.galeri_div
+{
+	
+    width: 200px;
+	margin-bottom:1%;
+	padding:5px;
+	color:#D9C191;
+	background:#756144;
+	border:none;
+	border-radius: 9px 9px 9px 9px;
+}
+.galeri_div:hover
+{
+    margin-left:1%;
+	margin-bottom:1%;
+	padding:5px;
+	color:white;
+	background:#745044;
+	cursor:pointer;
+}
+.galeri_href
+{
+	color:#D9C191;
+	text-decoration:none;
+}
+.galeri_href:hover
+{
+	color:#FFFFCC;
+}
+.text_radio
+{
+
+}
+.radio{
+
+}
+.formularz
+{
+	padding-right:20px;
+	float:left;
+}
+.formularz_zdjencie
+{
+ padding:10px;
+ clear: left;
+}
+#svg_logo
+{
+	width:35px;
+}
+.svg_social
+{
+	padding:3px;
+	width:33px;
+}
+.svg_kontakt
+{
+	float:left;
+	color:white;
+	padding:3px;
+	width:15%;
+}
+.foto
+{
+	float:left;
+	width:50%;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+.foto_gs
+{
+	
+	min-width:200px;
+	padding-right:10px;
+	padding-top:25px;
+	padding-bottom:10px;
+    float:left;
+    width:30%;
+}
+.foto_kontakt
+{
+	
+	min-width:200px;
+	float:left;
+	 width:50%;
+	 padding-right:10px;
+}
+.foto_gs_tabel
+{
+	min-width:100px;
+	float:left;
+    width:10%;
+	padding-right:15px;
+}
+.text_galeri
+{
+	font-size: 14px;
+}
+#container
+{
+	  margin-left:auto;
+	  margin-right:auto;
+	  width:960px;
+	  height:auto;
+	  text-align:center;
+	  padding-right:10px;
+}
+#head
+{  
+      background-color: #7D7565;
+	  width:100%;
+	  text-align:center;
+	  height:90px;
+	  border-radius: 20px 20px 0 0;
+}  
+
+#logo
+{  
+      padding:22px; 
+	  width:350px;
+	  text-align:center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  color:#D9C191;
+	  font-size: 23px;
+	  
+}
+#menu
+{
+	  background-color: #2B2722;
+	  text-align:center;
+	  height:35px;
+	  width:100%;
+}     
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 15px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol>li
+{
+	 float:left;
+	 width:180px;
+	 height:35px;
+}
+ol a
+{
+	text-decoration:none;
+	display: block;
+	color:#D9C191;
+}
+ol>li:hover
+{
+	background-color:#756144;
+}
+ol>li:hover > a
+{
+	color:#FFFFCC;
+}
+ol > li > ul
+{
+	 padding:0px;
+	 margin:0px;
+	 list-style-type:none;
+	 height:35px;
+     display:none;
+}
+ol >li > ul > li
+{
+	 height:35px;
+	 background-color:#2B2722;
+	 position:relative;
+	 z-index:100;
+	 border:1px solid black
+}
+ol > li > ul > li:hover 
+{
+	 background-color:#756144;
+}
+ol > li > ul > li:hover > a
+{
+	 color:#FFFFCC;
+}
+ol > li:hover > ul
+{
+	display:block;
+}
+#content
+{    
+      padding:20px;
+      text-align:justify;
+      margin-top:10px;
+	  height:auto;
+	  background-color: #7D7565;
+	  margin-bottom:0px;
+}
+
+.break
+{
+	  float:none;
+}
+#social
+{
+	  clear:left;
+	  height:50px;
+      background-color: #7D7565;
+	  width:auto;
+	  border-radius: 0px 0px 10px 10px;
+	  margin-bottom:0px;
+}
+.fb
+{
+	 margin-left:5%;
+	 margin-right:5%;
+	 height:40px;
+	 float:left;
+	 width:15%;
+	 background-color:#3B5998;
+}
+.fb:hover
+{
+	 background-color:#3B4988;
+}
+.vk
+{
+	 margin-left:5%;
+	 margin-right:5%;
+	 height:40px;
+	 float:left;
+	 background-color:#5B7FA6;
+	 width:15%;
+}
+.vk:hover
+{  
+	 background-color:#5B6FA6;
+}
+.tw
+{    
+	 margin-left:5%;
+	 margin-right:5%;
+	 height:40px;
+	 float:left;
+	 background-color:#9AE4E8;
+	 width:15%;
+}
+.tw:hover
+{
+	background-color:#9AE4B8;
+}
+.yt
+{    
+     margin-left:5%;
+	 margin-right:5%;
+	 height:40px;
+	 float:left;
+	 background-color:#b31217;
+	 width:15%;
+}
+.yt:hover
+{ 
+    background-color:#b10107;
+}
+#boot_list
+{    
+     margin-top:0px;
+	 background-color: #7D7765;
+     padding:0px; 
+	 height:22px;
+	 margin-bottom:10px;
+	 border-radius: 10px 10px 10px 10px; 
+}
+.boot_list_text
+{
+	padding-top:3px;
+	font-size:14px;/*изменил отступ в каждем зоголовке */
+}
+#touch-menu 
+{
+	 background-color: #2B2722;
+	 text-align:left;
+	 padding-left:5%;
+	 padding-top:8px;
+	 height:27px;
+	 width:95%;
+	 font-weight: bold;
+	 font-size: 17px;
+	 color: #FFFFCC;
+	 display: none;
+	 text-decoration:none;
+}
+	#touch-menu:hover  
+{
+	border-left: 1px solid #A52A2A;
+	background-color: #756144;
+	  text-decoration:none;
+	 color:#FDFAAA;
+}
+
+#accordion
+{
+  padding-top:10px;
+	width:100%;
+}
+#psycisk2, #psycisk4, #psycisk6, #psycisk_czcionka2
+{
+		 display: none;
+}
+#img_container1, #img_container2, #img_container3
+{
+	text-align:center;
+}
+.foto_galerja
+{
+	padding:15px;
+	width:40%;
+}
+button
+{
+	min-width:80px;
+	margin-left:2%;
+	margin-bottom:1%;
+	padding:5px;
+	color:#2B2722;
+	background:#756144;
+	border:none;
+	border-radius: 9px 9px 9px 9px;
+}
+button:hover
+{
+	margin-left:2%;
+	margin-bottom:1%;
+	padding:5px;
+	color:white;
+	background:#745044;
+	cursor:pointer;
+}
+.text_liczniki
+{
+	float:left;
+}
+@media  (max-width: 960px) {
+.foto
+{
+	min-width:460px;/* изменил длину для расширения под планшеты  */
+}
+#container
+{
+	  width:auto;/* изменил длину для расширения под планшеты  */
+	  height:auto;/* изменил длину для расширения под планшеты  */
+}
+#social
+{
+	  border-radius: 0px 0px 0px 0px;/*изменил отступ в каждем зоголовке */
+	  margin-bottom:0px;/*изменил отступ в каждем зоголовке */
+}
+#boot_list
+{    
+     margin-top:0px;/*изменил отступ в каждем зоголовке */
+     padding:0px; /*изменил отступ в каждем зоголовке */
+	 border-radius: 0px 0px 10px 10px;/*изменил отступ в каждем зоголовке */
+}
+.text_liczniki
+{
+	float:left;
+}
+}
+@media (max-width: 768px)
+ {
+	 h2{
+	  color:white;
+	  font-size: 17px;
+}
+.text_liczniki
+{
+	
+	display:none;
+}
+.foto_gs
+{
+	
+	min-width:200px;
+	padding-right:5px;
+	padding-top:15px;
+	padding-bottom:0px;
+    float:left;
+    width:30%;
+}
+#svg_logo
+{
+	width:25px;
+}
+ol>li 
+{
+     display: none;
+}
+ol > li:hover > ul
+{
+	display:none;
+}
+
+ol>li 
+{
+	float: none;/*для того что бы пункты меню не пробовали укладыватся друг за другом */
+	width:auto;
+	height:29px;
+}
+ol{
+	width:50%;
+}
+ol a 
+{
+	 
+    border:none;
+	background-color: #2B2722;
+    color:#D9C191;
+	position:relative;
+	z-index:100;
+		
+}
+ ol a:hover 
+{
+	background-color: #756144;
+	color: #D9C191;
+	border-left: 3px solid #A52A2A;
+}
+#touch-menu {display: block;} 
+#touch-menu1 {display: block;} 
+ol > li> a ul
+{
+	margin-left:50%;
+	display:block;
+}
+ol > li>ul
+{
+	width:100%;
+	margin-left:100%;
+	
+}
+ol>li>ul>li
+{
+	float: none;/*для того что бы пункты меню не пробовали укладыватся друг за другом */
+	width:auto;
+	height:29px;
+}
+body
+{
+	margin:0px;
+}
+#menu
+{
+	text-align:left;	
+}
+h3
+{
+	font-size:17px;/*изменил отступ в каждем зоголовке */
+    margin-left:0%; /*изменил отступ в каждем зоголовке */
+	margin-top:0px;/*изменил отступ в каждем зоголовке */
+	margin-bottom:5px;/*изменил отступ чтобы текст лег поплотнее к заглавию так как кажеться отступ был поумолчанию*/
+}
+p{
+	font-size:14px;
+	margin-top:0px;/*изменил отступ чтобы текст лег поплотнее к заглавию так как кажеться отступ был поумолчанию*/
+	
+}
+.foto
+{   display:block;/*изменил отступ в каждем зоголовке */
+	margin-left:auto;/*изменил отступ в каждем зоголовке */
+	margin-right:auto;/*изменил отступ в каждем зоголовке */
+	float:none;/*изменил отступ в каждем зоголовке */
+	width:70%;/*изменил отступ в каждем зоголовке */
+	padding-right:0px;/*изменил отступ в каждем зоголовке */
+    padding-left:0px;/*изменил отступ в каждем зоголовке */
+	padding-top:0px;/*изменил отступ в каждем зоголовке */
+	padding-bottom:0px;/*изменил отступ в каждем зоголовке */
+}
+
+#head
+{  
+	  height:50px;/*изменил отступ в каждем зоголовке */
+	  border-radius: 0px 0px 0 0;/*изменил отступ в каждем зоголовке */
+}  
+
+#logo
+{ 
+	  width:250px;/*изменил отступ в каждем зоголовке */
+	  padding:7px; /*изменил отступ в каждем зоголовке */
+	  font-size:15px;/*изменил отступ в каждем зоголовке */
+}
+	
+#content
+{    
+      padding:1px;/*изменил отступ в каждем зоголовке */
+      margin-top:0px;/*изменил отступ чтобы content лег поплотнее к заглавию так как кажеться отступ был поумолчанию*/
+	  margin-bottom:0px;
+}
+#social
+{
+	  border-radius: 0px 0px 0px 0px;/*изменил отступ в каждем зоголовке */
+	  margin-bottom:0px;/*изменил отступ в каждем зоголовке */
+}
+.fb
+{
+	 margin-left:0%;/*изменил отступ в каждем зоголовке */
+	 margin-right:0%;/*изменил отступ в каждем зоголовке */
+	 width:25%;/*изменил отступ в каждем зоголовке */
+}
+.vk
+{
+	 
+	 margin-left:0%;/*изменил отступ в каждем зоголовке */
+	 margin-right:0%;/*изменил отступ в каждем зоголовке */
+	 width:25%;/*изменил отступ в каждем зоголовке */
+}
+.tw
+{
+	  margin-left:0%;/*изменил отступ в каждем зоголовке */
+	 margin-right:0%;/*изменил отступ в каждем зоголовке */
+	 width:25%;/*изменил отступ в каждем зоголовке */
+}
+.yt
+{    
+     margin-left:0%;/*изменил отступ в каждем зоголовке */
+	 margin-right:0%;/*изменил отступ в каждем зоголовке */
+	 width:25%;/*изменил отступ в каждем зоголовке */
+}
+#boot_list
+{    
+     margin-top:0px;/*изменил отступ в каждем зоголовке */
+     padding:0px; /*изменил отступ в каждем зоголовке */
+	 margin-bottom:0px;/*изменил отступ чтобы content лег поплотнее к заглавию так как кажеться отступ был поумолчанию*/
+	 border-radius: 0px 0px 0px 0px;/*изменил отступ чтобы content лег поплотнее к заглавию так как кажеться отступ был поумолчанию*/
+}
+.boot_list_text
+{
+	font-size:12px;/*изменил отступ в каждем зоголовке */
+}
+}
+@media (max-width: 560px)
+{
+.foto
+{
+	margin-right:0%;/*изменил отступ в каждем зоголовке */
+	margin-left:0%;/*изменил отступ в каждем зоголовке */
+	float:none;/*изменил отступ в каждем зоголовке */
+	width:100%;/*изменил отступ в каждем зоголовке */
+	min-width:0px;/*изменил отступ в каждем зоголовке */
+	padding-right:0px;/*изменил отступ в каждем зоголовке */
+    padding-left:0px;/*изменил отступ в каждем зоголовке */
+	padding-top:0px;/*изменил отступ в каждем зоголовке */
+	padding-bottom:0px;/*изменил отступ в каждем зоголовке */
+}
+}
